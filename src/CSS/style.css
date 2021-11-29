@@ -1,0 +1,27 @@
+html,body,#root{
+    height: 100%;
+}
+#root{
+    padding: 30px;
+    background-color: white;
+}
+.grid-container{
+    height: 600px;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    padding: 10px;
+    background-color: black;
+    margin: auto;
+    box-shadow: 4px 4px 5px 2px #0005;
+}
+.grid-container div{
+    display: grid;
+    place-items: center;
+
+}
+.chess_piece{
+    width: 25px;
+    height: 50px;
+}
